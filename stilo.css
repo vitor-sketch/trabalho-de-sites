@@ -1,0 +1,132 @@
+/* stilo.css */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header, main, footer {
+    padding: 1rem;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.conteiner, .conteiner2, .conteiner3, .conteiner4 {
+    text-align: center;
+}
+
+.conteiner3 img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin-top: 1rem;
+}
+
+.img-dois{
+    width: 325px;
+    height: 325px;
+}
+
+.img-quatro{
+    width: 225px;
+    height: 225px;
+}
+
+.img-cinco{
+    width: 225px;
+    height: 225px; 
+}
+
+.img-oito{
+    width: 225px;
+    height: 225px; 
+}
+
+.img-nove{
+    width: 225px;
+    height: 225px; 
+}
+
+.img-dez{
+    width: 225px;
+    height: 225px; 
+}
+.bloco, .bloco2, .bloco3, .bloco4, .bloco5, .bloco6, .bloco7, .bloco8, .bloco9, .bloco10 {
+    margin-bottom: 2rem;
+}
+
+.bloco p, .bloco2 p, .bloco3 p, .bloco4 p, .bloco5 p, .bloco6 p, .bloco7 p, .bloco8 p, .bloco9 p, .bloco10 p {
+    margin-bottom: 1rem;
+}
+
+h4 {
+    margin-bottom: 0.5rem;
+}
+
+hr {
+    margin: 2rem 0;
+}
+
+.footer_conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer_conteudo img {
+    margin: 0.5rem;
+    width: 30px;
+    height: 30px;
+}
+
+.footer_conteudo .texto p {
+    margin-top: 1rem;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteiner3 img, .img-dois, .img-tres, .img-quatro, .img-cinco, .img-seis, .img-sete, .img-oito, .img-nove, .img-dez {
+        max-width: 90%;
+    }
+
+    .bloco, .bloco2, .bloco3, .bloco4, .bloco5, .bloco6, .bloco7, .bloco8, .bloco9, .bloco10 {
+        padding: 0 1rem;
+    }
+}
